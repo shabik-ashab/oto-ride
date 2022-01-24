@@ -6,12 +6,14 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import NavigationIcon from '@mui/icons-material/Navigation';
 import { Typography } from '@mui/material';
 import Banner from './Banner';
+import WhyUs from './WhyUs';
 
 
 
 const Home = () => {
   return <>
    <Banner />
+   <WhyUs />
   </>;
 };
 

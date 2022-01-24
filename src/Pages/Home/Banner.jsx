@@ -11,7 +11,7 @@ import img26 from '../../Images/image26.png'
 const Banner = () => {
   return (
     <div>
-      <Container >
+      <Container sx={{mb:5}}>
         <Grid container spacing={2}>
          
           <Grid item xs={12} md={6}>
