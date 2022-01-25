@@ -27,7 +27,13 @@
     top: -10px;
     left: -12px;
 }
-.world{
-    margin-bottom: -140vh;
+.pay{
+    z-index: 1;
 }
+.world{
+    position: relative;
+    margin-top: -82vh;
+    z-index: 999;
+}
+
   

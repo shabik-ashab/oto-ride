@@ -29,24 +29,26 @@ const Home = () => {
    <OpApp />
    <Bike />
    <Blog />
-   <div style={{
+   <div className='pay'>
+   <Payment />
+   </div>
+   <div div  className='world'>
+   <World />
+   </div>
+  <Contact />
+  {/* style={{
           
           position :'relative',
          
           
           zIndex: 1
-      }}>
-   <Payment />
-   </div>
-   <div div style={{
+      }} */}
+
+{/* style={{
         position:'relative',
         top:'-138vh',
         zIndex:2    
-}} className='world'>
-   <World />
-   </div>
-  <Contact />
-
+}} */}
   </>;
 };
 

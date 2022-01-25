@@ -2,7 +2,10 @@ import { Box } from '@mui/system';
 import React from 'react';
 import rectangle from '../../Images/rectangle.png'
 import { Container, Fab, Grid, Typography } from '@mui/material';
-import globe from '../../Images/globe.png'
+import globe from '../../Images/globe.png';
+import img from '../../Images/image6.png'
+
+
 
 const World = () => {
   return <>
@@ -12,11 +15,12 @@ const World = () => {
   <Box classname="wrapper-txt">
       
   </Box> */}
-    <div >
+    <div  style={{ backgroundImage: `url(${rectangle})`,backgroundRepeat: 'no-repeat',
+        height:'200vh',width:'100%'}} >
     <div style={{
         position:'relative',
-        top:'125vh',
-        zIndex:2    
+       top:'70vh'
+          
 }}>
    <Container>
    <Grid   container
@@ -77,17 +81,18 @@ const World = () => {
    </Container>
       </div>
       
-      <div style={{
+      {/* <div style={{
           
           position :'relative',
          
           
-          zIndex: 1
+          zIndex: 2
       }}>
           <Box>
           <img style={{width:'100%'}} src={rectangle} />
           </Box>
-      </div>
+      </div> */}
+      
     </div>
       
     
