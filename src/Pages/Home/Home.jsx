@@ -11,6 +11,7 @@ import UserApp from './UserApp';
 import AdminApp from './AdminApp';
 import OpApp from './OpApp';
 import Bike from './Bike';
+import Blog from './Blog';
 
 
 
@@ -22,6 +23,7 @@ const Home = () => {
    <AdminApp />
    <OpApp />
    <Bike />
+   <Blog />
   </>;
 };
 

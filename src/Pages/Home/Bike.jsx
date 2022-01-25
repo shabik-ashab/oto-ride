@@ -36,7 +36,7 @@ const Bike = () => {
             </Fab>
                   </Box>
             </Box>
-            <Box display="flex"  sx={{ justifyContent: 'center',mt:5,mb:5 }}>
+            <Box display="flex"  sx={{ justifyContent: 'center',mt:5,mb:5,flexWrap: 'wrap' }}>
                 <img src={img1} />
                 <img src={img2} />
                 <img src={img3} />
