@@ -25,7 +25,7 @@ const Navbar = () => {
   </Grid>
   <Grid item xs={12} md={4}>
      <span >products</span>
-     <span style={{marginLeft:'5vh'}}>features</span>
+     <span style={{marginLeft:'5vh'}}>Features</span>
      <Fab
               variant="extended"
               color="primary"

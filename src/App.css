@@ -36,4 +36,12 @@
     z-index: 999;
 }
 
+@media only screen and (max-width: 600px) {
+    
+    .world{
+        position: static;
+        display: block;
+    }
+  }
+
   
