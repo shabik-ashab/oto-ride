@@ -15,7 +15,7 @@ const World = () => {
     <div >
     <div style={{
         position:'relative',
-        top:'160vh',
+        top:'125vh',
         zIndex:2    
 }}>
    <Container>
@@ -85,7 +85,7 @@ const World = () => {
           zIndex: 1
       }}>
           <Box>
-          <img src={rectangle} />
+          <img style={{width:'100%'}} src={rectangle} />
           </Box>
       </div>
     </div>

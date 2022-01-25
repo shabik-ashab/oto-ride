@@ -14,11 +14,14 @@ import Bike from './Bike';
 import Blog from './Blog';
 import Payment from './Payment';
 import World from './World';
+import Contact from './Contact';
+import Navbar from '../Navbar';
 
 
 
 const Home = () => {
   return <>
+  <Navbar />
    <Banner />
    <WhyUs />
    <UserApp />
@@ -37,12 +40,12 @@ const Home = () => {
    </div>
    <div div style={{
         position:'relative',
-        top:'-160vh',
+        top:'-138vh',
         zIndex:2    
 }} className='world'>
    <World />
    </div>
-  
+  <Contact />
 
   </>;
 };
