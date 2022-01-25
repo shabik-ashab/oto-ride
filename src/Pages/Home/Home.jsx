@@ -7,6 +7,10 @@ import NavigationIcon from '@mui/icons-material/Navigation';
 import { Typography } from '@mui/material';
 import Banner from './Banner';
 import WhyUs from './WhyUs';
+import UserApp from './UserApp';
+import AdminApp from './AdminApp';
+import OpApp from './OpApp';
+import Bike from './Bike';
 
 
 
@@ -14,6 +18,10 @@ const Home = () => {
   return <>
    <Banner />
    <WhyUs />
+   <UserApp />
+   <AdminApp />
+   <OpApp />
+   <Bike />
   </>;
 };
 

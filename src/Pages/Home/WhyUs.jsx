@@ -5,10 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { Box } from '@mui/system';
 import React from 'react';
-import img from '../../Images/WhyUs/frame.png';
-import img2 from '../../Images/WhyUs/frame2.png';
-import img3 from '../../Images/WhyUs/frame3.png';
-import img4 from '../../Images/WhyUs/frame4.png';
+
 
 
 const fakeData = [

@@ -12,7 +12,10 @@ const Banner = () => {
   return (
     <div>
       <Container sx={{mb:5}}>
-        <Grid container spacing={2}>
+        <Grid  container
+  direction="row"
+  justifyContent="center"
+  alignItems="center" spacing={2}>
          
           <Grid item xs={12} md={6}>
           <Container sx={{mt:13,ml:8}}>
