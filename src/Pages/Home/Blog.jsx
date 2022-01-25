@@ -39,7 +39,7 @@ const Blog = () => {
   </Box>
 
  <Box display="flex"  sx={{ justifyContent: 'center',flexWrap: 'wrap',mt:5,ml:2 }}>
- <Card sx={{ maxWidth: 280,mr:3,mb:3  }}>
+ <Card sx={{ maxWidth: 280,mr:3,mb:3,boxShadow: 'none'  }}>
   <CardMedia
         component="img"
         height="140"
@@ -47,16 +47,12 @@ const Blog = () => {
         alt="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        <Typography sx={{mt:2,fontSize:'1.1em'}}  color="">
+        [Interview]Game-Changing Hands-on Services for MaaS Providers
         </Typography>
       </CardContent>
     </Card>
-    <Card sx={{ maxWidth: 280,mr:3,mb:3 }}>
+    <Card sx={{ maxWidth: 280,mr:3,mb:3,boxShadow: 'none'  }}>
   <CardMedia
         component="img"
         height="140"
@@ -64,16 +60,12 @@ const Blog = () => {
         alt="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        <Typography sx={{mt:2,fontSize:'1.1em'}}  color="">
+        [Interview]Game-Changing Hands-on Services for MaaS Providers
         </Typography>
       </CardContent>
     </Card>
-    <Card sx={{ maxWidth: 280,mr:3,mb:3  }}>
+    <Card sx={{ maxWidth: 280,mr:3,mb:3,boxShadow: 'none'  }}>
   <CardMedia
         component="img"
         height="140"
@@ -81,12 +73,8 @@ const Blog = () => {
         alt="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+        <Typography sx={{mt:2,fontSize:'1.1em'}}  color="">
+        [Interview]Game-Changing Hands-on Services for MaaS Providers
         </Typography>
       </CardContent>
     </Card>

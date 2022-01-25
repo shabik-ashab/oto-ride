@@ -12,6 +12,7 @@ import AdminApp from './AdminApp';
 import OpApp from './OpApp';
 import Bike from './Bike';
 import Blog from './Blog';
+import Payment from './Payment';
 
 
 
@@ -24,6 +25,7 @@ const Home = () => {
    <OpApp />
    <Bike />
    <Blog />
+   <Payment />
   </>;
 };
 
