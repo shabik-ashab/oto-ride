@@ -13,6 +13,7 @@ import OpApp from './OpApp';
 import Bike from './Bike';
 import Blog from './Blog';
 import Payment from './Payment';
+import World from './World';
 
 
 
@@ -25,7 +26,24 @@ const Home = () => {
    <OpApp />
    <Bike />
    <Blog />
+   <div style={{
+          
+          position :'relative',
+         
+          
+          zIndex: 1
+      }}>
    <Payment />
+   </div>
+   <div div style={{
+        position:'relative',
+        top:'-160vh',
+        zIndex:2    
+}} className='world'>
+   <World />
+   </div>
+  
+
   </>;
 };
 
