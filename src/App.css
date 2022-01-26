@@ -27,20 +27,34 @@
     top: -10px;
     left: -12px;
 }
-.pay{
+/* .pay{
     z-index: 1;
 }
 .world{
     position: relative;
     margin-top: -82vh;
     z-index: 999;
+} */
+.bg-w{
+    min-height: 245vh;
 }
-
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 1300px) {
     
-    .world{
-        position: static;
-        display: block;
+    .bg-w{
+        min-height: 240vh;
+    }
+  } */
+@media only screen and (max-width: 900px) {
+    
+    .bg-w{
+        min-height: 160vh;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    
+    .bg-w{
+        min-height: 140vh;
     }
   }
 

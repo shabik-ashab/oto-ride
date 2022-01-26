@@ -15,17 +15,30 @@ const World = () => {
   <Box classname="wrapper-txt">
       
   </Box> */}
-    <div  style={{ backgroundImage: `url(${rectangle})`,backgroundRepeat: 'no-repeat',
-        height:'200vh',width:'100%'}} >
+    {/* <Box display="flex"  sx={{ justifyContent: 'center'}}>
+        <img style={{width:'70%'}} src={img} />
+    </Box> */}
+ <div >
+ <div  style={{ backgroundImage: `url(${img})`,backgroundRepeat: 'no-repeat',
+ backgroundSize:'70%',
+ backgroundPosition:'center top',
+        width:'100%',
+        
+        }}>
+    <div className='bg-w'   style={{ backgroundImage: `url(${rectangle})`,backgroundRepeat: 'no-repeat',
+        width:'100%',
+        backgroundPosition:'center bottom',
+        marginTop:'20vh'}} >
     <div style={{
-        position:'relative',
-       top:'70vh'
+    //     position:'relative',
+    //    top:'70vh'
           
 }}>
-   <Container>
+   <Container sx={{pt:78}}>
    <Grid   container
   direction="row"
   justifyContent="center"
+//   alignItems="center"
   sx={{ml:5}}
  spacing={2}>
   <Grid item sx={{color:'white',mt:6}} xs={6} md={5}>
@@ -73,8 +86,10 @@ const World = () => {
         
        </Box>
   </Grid>
-  <Grid item xs={6} md={5}>
+  <Grid  item xs={5} md={5}>
+    <Box>
     <img style={{width:'100%'}} src={globe} />
+    </Box>
   </Grid>
   
 </Grid>
@@ -94,6 +109,8 @@ const World = () => {
       </div> */}
       
     </div>
+    </div>
+ </div>
       
     
   

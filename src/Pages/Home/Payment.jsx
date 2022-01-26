@@ -35,9 +35,9 @@ const Payment = () => {
          </Typography>
       </Box>
     </Box>
-    <Box display="flex"  sx={{ justifyContent: 'center',mt:7 }}>
+    {/* <Box display="flex"  sx={{ justifyContent: 'center',mt:7 }}>
         <img style={{width:'70%'}} src={img} />
-    </Box>
+    </Box> */}
   </Container>
   </>;
 };
